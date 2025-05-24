@@ -7,7 +7,7 @@ import { toast } from "@/hooks/use-toast";
 
 const BuyBPCConfirmation = () => {
   const navigate = useNavigate();
-  const bpcCode = "BPC25216";
+  const bpcCode = "BPC33266";
   
   const handleCopy = () => {
     navigator.clipboard.writeText(bpcCode).then(() => {
